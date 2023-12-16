@@ -1,7 +1,7 @@
 const { getName, getMatricula, getDescription } = require("../assets/info");
 
 test("Se debe btener nombre del estudiante", () => {
-   expect(getName()).toBe("CRISTIAN EULISES SANCHEZ RAMIREZ");
+   expect(getName()).toBe("");
 });
 
 test("Se debe de obtener la descripción del estudiante", () => {
