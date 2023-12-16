@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.main {
+    text-align: center;
+    margin: 5% 20%;
+    background-color: #140603;
+    padding: 3%;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.nav nav{
+    background-color: #140603;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 0% 20%;
+    color: aliceblue;
+}
+
+.main-text{
+    font-size: 30px;
+
+}
+
+form label{
+    display:block;
+    margin-top: 30px;
+    border-radius: 30px;
+    -webkit-text-stroke: 1px aliceblue;
+}
+
+.describe-service{
+    margin: 30px 0;
+}
+
+.describe-service p{
+margin-bottom: 10px;
+}
+
+.btn {
+  font-weight: 700;
+  color: #140603;
+  padding: 9px 25px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover,
+a:hover {
+  background-color: aliceblue;
+  color: #980404;
+  transform: scale(1.1);
+}

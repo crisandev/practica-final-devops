@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+}
+
+body {
+  background-image: url(../assets/img/unidad.png), url(../assets/img/unidad.png);
+  background-repeat: no-repeat;
+  background-size: 400px auto;
+  background-position-x: 98% ;  
+  background-position-y: 20% ;  
+ 
+}
+
+.main-valores {
+  text-align: center;
+  margin: 5% 20%;
+  background-color: #140603;
+  padding: 3%;
+  color: aliceblue;
+  justify-content: center;
+}
+
+.main-valores ul li {
+  list-style: none;
+  padding: 4%;
+}
+
+.main-valores h2{
+  font-size: 32px;
+}
+
+.main-valores ul li{
+font-size: 30px;
+}
+
+.btn-home{
+    font-weight: 700;
+    color: #140603;
+    padding: 9px 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+ }
+
+ .btn-home a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .btn-home:hover {
+  background-color: aliceblue;
+  color: #008add;
+  transform: scale(1.1);
+}
